@@ -2,9 +2,9 @@ import smtplib
 import imghdr
 from email.message import EmailMessage
 
-Sender_Email = "comsphddev@gmail.com"
-Reciever_Email = "miswindall@gmail.com"
-Password = '1gd2894JJq9x'
+Sender_Email = ""
+Reciever_Email = ""
+Password = ''
 
 newMessage = EmailMessage()    #creating an object of EmailMessage class
 newMessage['Subject'] = "Dail Data Drop" #Defining email subject
