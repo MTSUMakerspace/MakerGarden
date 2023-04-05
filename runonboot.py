@@ -1,8 +1,8 @@
 import time
 import os
 
-cmnd = "sudo python3 /home/pi/grdnPI/sparkle.py &"
-cmnd2 = "sudo python3 /home/pi/grdnPI/daily_report.py &"
+cmnd = "sudo python3 /home/pi/MakerGarden/sparkle.py &"
+cmnd2 = "sudo python3 /home/pi/MakerGarden/daily_report.py &"
 
 dt = time.asctime().split()
 t = dt[3].split(":")

@@ -9,7 +9,7 @@ now = datetime.now()
 dat = now.strftime("%m/%d/%Y***%H:%M:%S")
 ln = dat + "***" + data + "\n"
 
-with open("/home/pi/grdnPI/sensor.log", 'a') as f:
+with open("/home/pi/MakerGarden/sensor.log", 'a') as f:
 	f.write(ln)
 	f.close()
 
