@@ -20,3 +20,8 @@ The Maker Garden is a project for the MTSU Makerspace. The garden monitors soil 
   <li>Watering Irrigation Kit
 </ul>
 </p>
+<div>
+  <img src="plot1.png">
+  <br><br>
+  <img src="plot2.png">
+</div>
