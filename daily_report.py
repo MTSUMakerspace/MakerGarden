@@ -28,7 +28,7 @@ plt.savefig("/home/pi/MakerGarden/plot1.png")
 # Create and save all-time data plot
 fig1, ax1 = plt.subplots(1)
 fig1.autofmt_xdate()
-plt.title("Maker Garden Moisture Log")
+plt.title("Maker Garden Moisture Log (all data)")
 plt.xlabel("Date & Time")
 plt.ylabel("Moisture Reading")
 plt.plot(x, y)
