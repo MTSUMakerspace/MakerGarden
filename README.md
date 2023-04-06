@@ -21,6 +21,8 @@ The Maker Garden is a project for the MTSU Makerspace. The garden monitors soil 
 </ul>
 </p>
 <div>
+  <h1>Moisture Log Plots</h1>
+  <br><br>
   <img src="plot1.png">
   <br><br>
   <img src="plot2.png">
