@@ -1,9 +1,10 @@
 import os
+from datetime import datetime
 
 threshold = 600
 cmnd = "python3 /home/pi/MakerGarden/sprinkle.py"
 
-with open("sensorlog.txt", 'r') as f:
+with open("/home/pi/MakerGarden/sensor.log", 'r') as f:
 	text = f.readlines()
 	f.close()
 
@@ -18,4 +19,7 @@ for i in range(len(text)):
 
 if y[-1] >= threshold:
 	os.system(cmnd)
-
+	t = str(datetime.now()) + "\n"
+	with open("watering.log", 'a') as f:
+		f.write(t)
+		f.close()	
