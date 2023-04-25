@@ -16,7 +16,7 @@ for i in range(len(text)):
 	y.append(sm)
 
 
-# Create and save plot for last 3 days
+# Create and save plot for last 7 days
 fig1, ax1 = plt.subplots(1)
 #fig1.autofmt_xdate(rotation=90)
 ax1.set_xticks([23, 47, 71, 95, 119, 143, 167])
@@ -35,6 +35,9 @@ plt.xlabel("Date Range: " + x[0] + " - " + x[-1])
 plt.ylabel("Moisture Reading")
 plt.plot(x, y)
 plt.savefig("/home/pi/MakerGarden/plot2.png")
+
+
+
 
 
 
