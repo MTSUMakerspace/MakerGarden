@@ -24,6 +24,7 @@ ax1.set_xticklabels(['1', '2', '3' ,'4', '5', '6', '7'])
 plt.title("Maker Garden 7-Day Moisture Log")
 plt.xlabel("Days")
 plt.ylabel("Moisture Reading")
+plt.grid()
 plt.plot(x[-168:], y[-168:])
 plt.savefig("/home/pi/MakerGarden/plot1.png")
 
@@ -33,6 +34,7 @@ plt.tick_params(axis='x', which='both', bottom=False, top=False, labelbottom=Fal
 plt.title("Maker Garden Moisture Log (all data)")
 plt.xlabel("Date Range: " + x[0] + " - " + x[-1])
 plt.ylabel("Moisture Reading")
+plt.grid(axis='y')
 plt.plot(x, y)
 plt.savefig("/home/pi/MakerGarden/plot2.png")
 
