@@ -19,7 +19,7 @@ for i in range(len(text)):
 
 if y[-1] >= threshold:
 	os.system(cmnd)
-	t = str(datetime.now()) + "\n"
+	t = str(datetime.datetime.now()) + "\n"
 	with open("watering.log", 'a') as f:
 		f.write(t)
 		f.close()	
