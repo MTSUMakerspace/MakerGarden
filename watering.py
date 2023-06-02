@@ -20,6 +20,6 @@ for i in range(len(text)):
 if y[-1] >= threshold:
 	os.system(cmnd)
 	t = str(datetime.datetime.now()) + "\n"
-	with open("watering.log", 'a') as f:
+	with open("/home/pi/MakerGarden/watering.log", 'a') as f:
 		f.write(t)
 		f.close()	
