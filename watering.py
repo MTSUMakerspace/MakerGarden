@@ -1,7 +1,7 @@
 import os
 from datetime import datetime
 
-threshold = 6000
+threshold = 600
 cmnd = "python3 /home/pi/MakerGarden/sprinkle.py"
 
 with open("/home/pi/MakerGarden/sensor.log", 'r') as f:
