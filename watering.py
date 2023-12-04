@@ -17,7 +17,7 @@ for i in range(len(text)):
 	x.append(dt)
 	y.append(sm)
 
-if y[-1] >= threshold:
+if y[-1] >= threshold and y[-1] < 850:
 	os.system(cmnd)
 	t = str(datetime.now()) + "\n"
 	with open("/home/pi/MakerGarden/watering.log", 'a') as f:
