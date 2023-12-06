@@ -1,0 +1,3 @@
+water_low:650
+water_hihg:850
+water_duration:45
